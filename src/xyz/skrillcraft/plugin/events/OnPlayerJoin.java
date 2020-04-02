@@ -13,5 +13,8 @@ public class OnPlayerJoin implements Listener {
         Player player = event.getPlayer();
 
         event.setJoinMessage(ChatColor.GREEN + "+ " + ChatColor.GRAY + player.getDisplayName());
+
+        player.setPlayerListHeader("§c§lSKRILLCRAFT\n§f");
+        player.setPlayerListFooter("\n§5discord.gg/skrillex §7• §5reddit.com/r/skrillex");
     }
 }
