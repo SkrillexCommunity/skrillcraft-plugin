@@ -1,7 +1,7 @@
-package com.skrillcraft.plugin;
+package xyz.skrillcraft.plugin;
 
-import com.skrillcraft.plugin.events.OnPlayerJoin;
-import com.skrillcraft.plugin.events.OnPlayerQuit;
+import xyz.skrillcraft.plugin.events.OnPlayerJoin;
+import xyz.skrillcraft.plugin.events.OnPlayerQuit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
