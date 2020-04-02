@@ -1,4 +1,4 @@
-package com.skrillcraft.plugin.events;
+package xyz.skrillcraft.plugin.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
