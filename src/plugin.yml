@@ -3,3 +3,8 @@ version: 1.0.0
 author: LamboCreeper
 main: xyz.skrillcraft.plugin.Main
 api-version: 1.13
+
+commands:
+  spawn:
+    description: Teleport to the world spawn.
+    usage: /<command>

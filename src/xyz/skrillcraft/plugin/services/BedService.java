@@ -1,6 +1,6 @@
-package xyz.skrillcraft.plugin;
+package xyz.skrillcraft.plugin.services;
 
-public class BedManager {
+public class BedService {
     private int playersInBed = 0;
 
     public void addPlayerToBed() {
