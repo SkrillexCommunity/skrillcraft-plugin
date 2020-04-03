@@ -1,5 +1,6 @@
 package xyz.skrillcraft.plugin;
 
+import xyz.skrillcraft.plugin.commands.SpawnCommand;
 import xyz.skrillcraft.plugin.events.OnPlayerChat;
 import xyz.skrillcraft.plugin.events.OnPlayerJoin;
 import xyz.skrillcraft.plugin.events.OnPlayerQuit;
@@ -21,6 +22,8 @@ public class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new OnPlayerChat(), this);
         getServer().getPluginManager().registerEvents(new OnBedEnter(bedManager), this);
         getServer().getPluginManager().registerEvents(new OnBedLeave(bedManager), this);
+
+        getCommand("spawn").setExecutor(new SpawnCommand());
     }
 
     @Override
