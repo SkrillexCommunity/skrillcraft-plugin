@@ -8,3 +8,6 @@ commands:
   spawn:
     description: Teleport to the world spawn.
     usage: /<command>
+  help:
+    description: Recieve help information about Skrillcraft
+    usage: /<command>
