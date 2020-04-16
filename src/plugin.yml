@@ -11,3 +11,6 @@ commands:
   help:
     description: Recieve help information about Skrillcraft
     usage: /<command>
+  home:
+    description: Teleport to your bed.
+    usage: /<command>
