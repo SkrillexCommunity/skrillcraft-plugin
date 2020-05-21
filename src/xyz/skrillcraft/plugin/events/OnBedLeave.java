@@ -3,13 +3,13 @@ package xyz.skrillcraft.plugin.events;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerBedLeaveEvent;
-import xyz.skrillcraft.plugin.services.BedService;
+import xyz.skrillcraft.plugin.managers.BedManager;
 
 public class OnBedLeave implements Listener {
-    private BedService bedService;
+    private BedManager bedService;
 
-    public OnBedLeave(BedService bedServiceInstance) {
-        bedService = bedServiceInstance;
+    public OnBedLeave(BedManager bedManagerInstance) {
+        bedService = bedManagerInstance;
     }
 
     @EventHandler

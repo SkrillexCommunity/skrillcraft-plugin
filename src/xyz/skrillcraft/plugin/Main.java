@@ -10,7 +10,7 @@ import xyz.skrillcraft.plugin.events.OnPlayerQuit;
 import xyz.skrillcraft.plugin.events.OnBedEnter;
 import xyz.skrillcraft.plugin.events.OnBedLeave;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.skrillcraft.plugin.services.BedService;
+import xyz.skrillcraft.plugin.managers.BedManager;
 
 public class Main extends JavaPlugin {
 
@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveDefaultConfig();
 
-        BedService bedManager = new BedService();
+        BedManager bedManager = new BedManager();
 
         getServer().getPluginManager().registerEvents(new OnPlayerJoin(), this);
         getServer().getPluginManager().registerEvents(new OnPlayerQuit(), this);
