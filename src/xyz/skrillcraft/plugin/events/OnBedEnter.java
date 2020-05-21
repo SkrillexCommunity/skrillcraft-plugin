@@ -5,14 +5,14 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerBedEnterEvent;
-import xyz.skrillcraft.plugin.services.BedService;
+import xyz.skrillcraft.plugin.managers.BedManager;
 
 import java.util.List;
 
 public class OnBedEnter implements Listener {
-    private BedService bedManager;
+    private BedManager bedManager;
 
-    public OnBedEnter(BedService bedManagerInstance) {
+    public OnBedEnter(BedManager bedManagerInstance) {
         bedManager = bedManagerInstance;
     }
 
