@@ -14,3 +14,6 @@ commands:
   home:
     description: Teleport to your bed.
     usage: /<command>
+  donate:
+    description: Get information on how to donate to support the server.
+    usage: /<command>

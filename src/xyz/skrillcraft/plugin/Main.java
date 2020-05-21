@@ -1,5 +1,6 @@
 package xyz.skrillcraft.plugin;
 
+import xyz.skrillcraft.plugin.commands.DonateCommand;
 import xyz.skrillcraft.plugin.commands.HelpCommand;
 import xyz.skrillcraft.plugin.commands.HomeCommand;
 import xyz.skrillcraft.plugin.commands.SpawnCommand;
@@ -29,6 +30,7 @@ public class Main extends JavaPlugin {
         getCommand("spawn").setExecutor(new SpawnCommand());
         getCommand("help").setExecutor(new HelpCommand());
         getCommand("home").setExecutor(new HomeCommand());
+        getCommand("donate").setExecutor(new DonateCommand());
     }
 
     @Override
